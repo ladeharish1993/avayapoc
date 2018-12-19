@@ -3,6 +3,6 @@ resource "aws_instance" "my-test-instance" {
   instance_type   = "t2.micro"
   key_name = "helloworld"
   tags {
-    Name = "aws-instance"
+    Name = "provisioned-instance"
   }
 }
